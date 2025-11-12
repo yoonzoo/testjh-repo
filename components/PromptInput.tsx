@@ -7,7 +7,7 @@ interface PromptInputProps {
 }
 
 export const PromptInput: React.FC<PromptInputProps> = ({ onGenerate, isLoading }) => {
-  const [prompt, setPrompt] = useState('Rainy cyberpunk lo-fi street view');
+  const [prompt, setPrompt] = useState('비 오는 사이버펑크 도시의 로파이 감성 골목길');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -20,7 +20,7 @@ export const PromptInput: React.FC<PromptInputProps> = ({ onGenerate, isLoading 
         <textarea
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
-          placeholder="Describe your vibe..."
+          placeholder="어떤 느낌을 원하시나요? 자유롭게 적어보세요..."
           className="w-full bg-slate-800 border-2 border-slate-700 rounded-lg p-3 resize-none focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-shadow text-slate-100 placeholder-slate-400"
           rows={1}
           disabled={isLoading}
@@ -41,7 +41,7 @@ export const PromptInput: React.FC<PromptInputProps> = ({ onGenerate, isLoading 
           ) : (
             <>
               <SparklesIcon className="w-5 h-5" />
-              <span className="hidden sm:inline">Generate</span>
+              <span className="hidden sm:inline">만들기!</span>
             </>
           )}
         </button>

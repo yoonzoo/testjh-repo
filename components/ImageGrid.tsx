@@ -16,11 +16,11 @@ export const ImageGrid: React.FC<ImageGridProps> = ({ images, onImageSelect }) =
         >
           <img
             src={imgSrc}
-            alt={`Generated wallpaper variation ${index + 1}`}
+            alt={`생성된 배경화면 시안 ${index + 1}`}
             className="w-full h-full object-cover aspect-[9/16]"
           />
           <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-            <p className="text-white font-semibold text-lg">View</p>
+            <p className="text-white font-semibold text-lg">크게 보기</p>
           </div>
         </button>
       ))}

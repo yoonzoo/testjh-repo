@@ -33,14 +33,14 @@ export const ImageViewer: React.FC<ImageViewerProps> = ({ imageSrc, onClose, onD
       <div className="relative w-full h-full flex items-center justify-center" onClick={(e) => e.stopPropagation()}>
         <img
           src={imageSrc}
-          alt="Selected wallpaper"
+          alt="선택된 배경화면"
           className="max-h-[90vh] max-w-[90vw] object-contain rounded-lg shadow-2xl"
         />
 
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-white bg-black/50 p-2 rounded-full hover:bg-black/75 transition-colors"
-          aria-label="Close image viewer"
+          aria-label="이미지 뷰어 닫기"
         >
           <CloseIcon />
         </button>
@@ -49,18 +49,18 @@ export const ImageViewer: React.FC<ImageViewerProps> = ({ imageSrc, onClose, onD
           <button 
             onClick={onDownload}
             className="flex items-center gap-2 bg-slate-100 text-slate-800 font-bold py-3 px-6 rounded-full shadow-lg hover:bg-slate-200 transition-transform transform hover:scale-105"
-            aria-label="Download image"
+            aria-label="이미지 저장하기"
           >
             <DownloadIcon />
-            Download
+            저장하기
           </button>
           <button 
             onClick={onRemix}
             className="flex items-center gap-2 bg-purple-500 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-purple-600 transition-transform transform hover:scale-105"
-            aria-label="Remix image"
+            aria-label="같은 프롬프트로 다시 만들기"
           >
             <RemixIcon />
-            Remix
+            리믹스
           </button>
         </div>
       </div>

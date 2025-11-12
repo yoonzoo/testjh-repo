@@ -1,5 +1,5 @@
 {
-  "name": "VibePaper Generator 2",
-  "description": "Generate unique, AI-powered phone wallpapers based on your desired vibe. Describe a mood, scene, or style, and get four 9:16 aspect ratio variations to choose from. Download your favorites or remix them for new ideas.",
+  "name": "내 폰을 위한 AI 배경화면 짤 생성기",
+  "description": "당신이 원하는 분위기를 알려주세요. AI가 세상에 단 하나뿐인 폰 배경화면 짤을 만들어 드립니다. 감성, 장면, 스타일을 묘사하면 9:16 비율의 네 가지 시안을 드려요. 마음에 드는 짤은 다운로드하거나, 리믹스해서 새로운 아이디어를 얻어보세요.",
   "requestFramePermissions": []
 }
