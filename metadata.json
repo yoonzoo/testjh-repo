@@ -1,0 +1,5 @@
+{
+  "name": "VibePaper Generator",
+  "description": "Generate unique, AI-powered phone wallpapers based on your desired vibe. Describe a mood, scene, or style, and get four 9:16 aspect ratio variations to choose from. Download your favorites or remix them for new ideas.",
+  "requestFramePermissions": []
+}
